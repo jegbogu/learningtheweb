@@ -1,0 +1,61 @@
+ 
+h1{
+text-align: center;
+text-decoration: underline;
+text-transform: capitalize;
+color:rgb(5, 52, 52);
+font-weight: 900;
+
+}
+.section{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section p{
+    color:blue;
+}
+ /* .article>p{
+    color: blue;
+ }
+ .article>.articleOne{
+    color: red;
+ } */
+
+
+/* p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+   font-size: 1.2em;
+} */
+
+ /* attributes that starts with */
+div[class^="card"]{
+    color: red;
+}
+/* attributes that ends with */
+div[class$="Card"]{
+    color: rgb(255, 200, 0);
+}
+/* attributes that contains ... */
+/* div[class*="card"]{
+    color: aqua;
+} */
+
+label[for*="email"]{
+    color: red;
+}
+button{
+    color:white;
+    background-color: rgb(8, 8, 49);
+    padding: 10px;
+    border: none;
+    
+}
+button:hover{
+    color: rgb(8, 8, 49);
+    background-color:white;
+    padding: 10px; 
+    border: solid black 2px;
+    transition: 300ms;
+}

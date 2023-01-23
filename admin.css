@@ -1,0 +1,93 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(234, 16, 16);
+    margin: 0px;
+    padding: 0px;
+}
+.logoBanner{
+    background-color: rgb(151, 165, 183);
+    width: 40%;
+    margin-left: 30%;
+    padding: 50px;
+     
+}
+.sectionForm{
+  
+    background-color: white;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -5%;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: rgb(39, 39, 39) 2px 2px 5px;
+    display: block;
+
+}
+.formHeader h3,p{
+    color: gray;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid grey 1px;
+}
+.formControl{
+    margin-bottom: 10px;
+}
+button{
+    background-color: rgb(20, 76, 20);
+    padding: 15px;
+    color: white;
+    width: 40%;
+    border: none;
+    font-size: medium;
+    margin-left: 1%;
+    
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(20, 76, 20);
+    border: solid rgb(20, 76, 20) 1px;
+    transition: 300ms;
+}
+.sign{
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1{
+    border: solid rgb(141, 138, 138) 1px;
+    padding: 20px 10px 20px 10px;
+    margin-top: 100px;
+    box-shadow: grey 2px 2px 2px;
+    border-radius: 20px;
+     
+}
+h3{
+    border: solid red 2px;
+    padding: 20px 10px 20px 10px;
+    margin-top: 500px;
+} */
